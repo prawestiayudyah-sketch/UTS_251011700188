@@ -78,10 +78,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('electronics.index') }}">Produk</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('cart') }}">Keranjang</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                 </li>

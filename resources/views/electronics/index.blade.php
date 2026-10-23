@@ -31,15 +31,13 @@
                         <p class="card-text fw-bold fs-5 mt-auto" style="color: #7c3aed;">
                             Rp {{ number_format($item->price, 0, ',', '.') }}
                         </p>
-                        
                         <div class="d-grid gap-2 mt-2">
-                            <a href="{{ route('electronics.show', $item->id) }}" class="btn btn-outline-dark">
+                          <a href="{{ route('electronics.show', $item->id) }}"
+                            class="btn btn-outline-dark">
                                 Lihat Detail →
                             </a>
-                            <a href="{{ route('cart.add', $item->id) }}" class="btn btn-primary">
-                                + Masukkan Keranjang
-                            </a>
                         </div>
+                        
                     </div>
                 </div>
             </div>
